@@ -1,7 +1,7 @@
-# Microsoft Learn Student Ambassador Certificate Automation
+# Microsoft Learn Student Ambassador Certificate Automation and Email Sender
 
 This repo simply use a template certificate docx file and generates certificates
-both docx and pdf.
+both docx and pdf. It also sends personalised emails with certificates / LinkedIn Premium Voucher Links attached to it.
 
 ###  Working on Windows only.
 
