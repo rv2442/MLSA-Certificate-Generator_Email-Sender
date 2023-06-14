@@ -31,14 +31,11 @@ python main_certificate.py
 - Click on outbox and see the mails being sent one by one.
 
 ### There are 2 email templates:
-- MLSA Email Template
+- MLSA Email Template  
 ![image](https://github.com/rv2442/MLSA-Certificate-Generator_Email-Sender/assets/69571769/3478c021-c31d-4f67-a031-f2e5d40ddb00)
 
-
-- Custom Email Template (by Sabyasachi) 
+- Custom Email Template (by Sabyasachi)  
 ![image](https://github.com/rv2442/MLSA-Certificate-Generator_Email-Sender/assets/69571769/fb7f3429-0250-469e-accb-7387aba04d7d)
-
-
 
 
 Souce Repo(I made some changes) : <a href="https://github.com/Sabyasachi-Seal/Certificate-Generator-MLSA">Click Here</a>
