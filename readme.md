@@ -30,7 +30,13 @@ python main_certificate.py
 - Now open outlook and login.
 - Click on outbox and see the mails being sent one by one.
 
-<h2></h2>
+### There are 2 email templates:
+- MLSA Email Template
+image.png
+
+- Custom Email Template (by Sabyasachi) 
+image.png
+
 
 
 Souce Repo(I made some changes) : <a href="https://github.com/Sabyasachi-Seal/Certificate-Generator-MLSA">Click Here</a>
