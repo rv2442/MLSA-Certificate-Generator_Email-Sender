@@ -8,7 +8,7 @@ both docx and pdf. It also sends personalised emails with certificates / LinkedI
 ## Run these commands in your terminal
 
 ```
-git clone <repo-url>
+git clone https://github.com/rv2442/MLSA-Certificate-Generator_Email-Sender.git
 cd Certificate-Generator-MLSA
 ```
 Now Copy your Participant List to the Data Folder and rename it as `Participant List.csv`. <br>
