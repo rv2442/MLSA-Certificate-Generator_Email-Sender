@@ -25,8 +25,9 @@ python main_certificate.py
 ## How to send emails?
 - You can use the `Send_certificates_via_email.ipynb` file to send emails to the participants.
 - You can use the `Send_linkedinPremiumVouchers_via_email.ipynb` file to send LinkedIn Premium Vouchers to the Winners.
-- You don't need to change anything in the file itself.
-- All you need to do is feed Participant Data under ```Participant List.csv``` and then click on ```Run``` in the respective Jupyter Notebook.
+- You don't need to change anything in the logic of the code.
+- You do need to change data contents within the code for the jupyter notebooks to send certs/vouchers via email. (Fields such as ambassador name, event name etc)
+- Then all you need to do is feed Participant Data under ```Participant List.csv``` and then click on ```Run``` in the respective Jupyter Notebook.
 - Now open outlook and login.
 - Click on outbox and see the mails being sent one by one.
 
