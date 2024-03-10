@@ -1,9 +1,8 @@
 # Microsoft Learn Student Ambassador Certificate Automation and Email Sender
 
-This repo simply use a template certificate docx file and generates certificates
-both docx and pdf. It also sends personalised emails with certificates / LinkedIn Premium Voucher Links attached to it.
+This repo simply use a template certificate docx file and generates certificates both docx and pdf. It also sends personalised emails with Certificates / LinkedIn Premium Voucher Links attached to it.
 
-###  Working on Windows only.
+###  Works on Windows only.
 
 ## Run these commands in your terminal
 
@@ -12,11 +11,14 @@ git clone https://github.com/rv2442/MLSA-Certificate-Generator_Email-Sender.git
 cd Certificate-Generator-MLSA
 ```
 Now Copy your Participant List to the Data Folder and rename it as `Participant List.csv`. <br>
-<e><i>The list must have the following fields: ```Name, Email```</i></e>.
+<e>The list must have the following fields only: <i>```Email,Name```</i></e>. <br>
+<e><b>NOTE:</b> The first line of the Participant List.csv file must be ```Email,Name```. Please add your partipant data below this line, do not edit the first line </e>.
 ```
 pip install -r requirements.txt
 python main_certificate.py
 ```
+Use test mode to check if code is functioning properly. Test mode will use ```Data\Temp.csv```.  
+To use data from ```Data\Participant List.csv``` put N (No) as a prompt when the code asks if you want to run code in test mode.
 
 ## Customization
 - You can change the certificate template file in the `Data` folder.
