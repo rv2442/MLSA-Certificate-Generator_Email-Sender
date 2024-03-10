@@ -32,8 +32,13 @@ def create_docx_files(filename, list_participate):
         # use original file everytime
         doc = Document(filename)
 
-        name = participate["Name"]
-        email = participate["Email"]
+<<<<<<< HEAD
+        name = participate["Name"].rstrip() # remove
+        email = participate["Email"].rstrip() #
+=======
+        name = participate["Name"].rstrip()
+        email = participate["Email"].rstrip()
+>>>>>>> 1ad22dc1ca8eb2ea4c651046cd118e55a8fb4642
 
         replace_participant_name(doc, name)
         replace_event_name(doc, event)
