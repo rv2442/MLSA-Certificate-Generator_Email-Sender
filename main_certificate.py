@@ -56,7 +56,7 @@ certificate_file = "Data/Event Certificate Template.docx"
 participate_file = "Data/"+("Participant List.csv" if (input("Test Mode (Y/N): ").lower())[0]=="n" else "temp.csv")
 
 # get participants
-list_participate = get_participants(participate_file);
+list_participate = get_participants(participate_file)
 
 # process data
 create_docx_files(certificate_file, list_participate)

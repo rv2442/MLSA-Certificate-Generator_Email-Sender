@@ -1,2 +1,5 @@
 /Output/
 /__pycache__/
+/Filter Participants/__pycache__/ 
+/StopAllRunningOutlooProcesses.ps1
+/build/
