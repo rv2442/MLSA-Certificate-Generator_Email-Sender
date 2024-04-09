@@ -84,11 +84,11 @@ Test mode is for developers who wish to tweak code, it has sample data, it will 
 Link & Image
 
 ### There are 2 email templates:
-- MLSA Email Template
-image.png
+- MLSA Email Template  
+![image](https://github.com/rv2442/MLSA-Certificate-Generator_Email-Sender/assets/69571769/3478c021-c31d-4f67-a031-f2e5d40ddb00)
 
-- Custom Email Template (by Sabyasachi) 
-image.png
+- Custom Email Template (by Sabyasachi)  
+![image](https://github.com/rv2442/MLSA-Certificate-Generator_Email-Sender/assets/69571769/fb7f3429-0250-469e-accb-7387aba04d7d)
 
 
 
