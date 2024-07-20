@@ -42,6 +42,11 @@ This code will open your challenge page using chrome and get the names of all of
 ```
 python get_active_participant_list_from_csc.py
 ```
+##### Demo Url
+NOTE: This is not a tutorial
+```
+https://youtu.be/M93jSsFHNVc?si=fZRI6Fe6_Z5HdDmo
+```
   
 #### Clean and check data mannually for typing errors, irrelevant data in <e><i>`.\Data\Participant List.csv`</i></e>. 
 
