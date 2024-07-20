@@ -53,6 +53,7 @@ def create_docx_files(filename, list_participate):
 # get certificate template path
 certificate_file = "Data/Event Certificate Template.docx"
 # get participants path
+print("NOTE: Selecting Test Mode as 'N' will use actual data from Data/Participant List.csv & Test mode as 'Y' will use dummy data from temp.csv, choosing Y will result in generation of only 1 certificate, this is to be used for testing only.")
 participate_file = "Data/"+("Participant List.csv" if (input("Test Mode (Y/N): ").lower())[0]=="n" else "temp.csv")
 
 # get participants
